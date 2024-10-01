@@ -1,0 +1,53 @@
+#ex6-a
+nlist=[]
+n=int(input("enter the total number of list element:"))
+for i in range(1,n+1):
+  value=int(input("enter the value of %d element:"%1))
+  nlist.append(value)
+  nlist.sort()
+  print(nlist)
+print("the smallest element in this listis:",nlist[0])
+print("the largest element in this listis:",nlist[n-1])
+
+#ex6-b
+print("list is created in the name:list")
+list=['p','e','r','m','i','t']
+print("list created",list)
+print("list indexing",list[0])
+print("list negative indexing",list[-1])
+print("list slicing",list[1:4])
+list=['p','e','r','m','i','t']
+print("given list",list)
+list[0]=2
+print("list changing",list)
+list=['p','e','r','m','i','t']
+print("given list",list)
+list.append(['add','sub'])
+print("list appending",list)
+list=['p','e','r','m','i','t']
+print("given list",list)
+list.remove('p')
+print("list removing",list)
+
+
+#ex6-c
+print("list is created in the name:list")
+list=['p','e','r','m','i','t']
+print("list created",list)
+print("list indexing",list[0])
+print("list negative indexing",list[-1])
+print("list slicing",list[1:4])
+list=['p','e','r','m','i','t']
+print("given list",list)
+list[0]=2
+print("list changing",list)
+list=['p','e','r','m','i','t']
+print("given list",list)
+list.append(['add','sub'])
+print("list appending",list)
+list=['p','e','r','m','i','t']
+print("given list",list)
+list.remove('p')
+print("list removing",list)
+
+
