@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[2]:
+
+
+string = input("Enter Your String : ")
+vowels = consonants = uppercase = lowercase = 0
+vowels_list = ['a','e','i','o','u','A','E','I','O','U']
+for i in string:
+  if i in vowels_list:
+     vowels += 1
+  if i not in vowels_list:
+     consonants += 1
+  if i.isupper():
+     uppercase += 1
+  if i.islower():
+     lowercase += 1
+print("Number of Vowels in this String = ", vowels)
+print("Number of Consonants in this String = ", consonants)
+print("Number of Uppercase characters in this String = ", uppercase)
+print("Number of Lowercase characters in this String = ", lowercase)
+
+
+# In[3]:
+
+
+txt = input("Enter Your String : ")
+print (txt)
+print('Access characters in a String=',txt[1])
+print('No.of.Character in String', txt.find("C"))
+print('how many times character in string',txt.count('c'))
+print('First character is upper case in String',txt.capitalize())
+print('Lower case of string',txt.lower())
+print('upper case of string',txt.upper())
+print('Replace of Character in String',txt.replace('AVCCE','A.V.C.C.E'))
+print('Index of H: ', txt.rfind('E'))
+print('center character',txt.center(20, '*'))
+x = txt.swapcase()
+print("swapcase",x)
+
+
+# In[ ]:
+
+
+
+
