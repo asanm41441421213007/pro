@@ -1,4 +1,5 @@
-#ex6-a
+#ex6-a program to find largest and smallest number in a list
+
 nlist=[]
 n=int(input("enter the total number of list element:"))
 for i in range(1,n+1):
@@ -9,7 +10,10 @@ for i in range(1,n+1):
 print("the smallest element in this listis:",nlist[0])
 print("the largest element in this listis:",nlist[n-1])
 
-#ex6-b
+
+
+#ex6-(b) basic list operation
+
 print("list is created in the name:list")
 list=['p','e','r','m','i','t']
 print("list created",list)
@@ -30,7 +34,9 @@ list.remove('p')
 print("list removing",list)
 
 
-#ex6-c
+
+#ex6-(c) python tuples
+
 print("list is created in the name:list")
 list=['p','e','r','m','i','t']
 print("list created",list)
