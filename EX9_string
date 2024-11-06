@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[2]:
 
+#(a) program to count and display the number of volumes consonent uppercase characters in string
 
 string = input("Enter Your String : ")
 vowels = consonants = uppercase = lowercase = 0
@@ -22,8 +20,7 @@ print("Number of Uppercase characters in this String = ", uppercase)
 print("Number of Lowercase characters in this String = ", lowercase)
 
 
-# In[3]:
-
+#(b) string manipulation using python
 
 txt = input("Enter Your String : ")
 print (txt)
@@ -38,9 +35,6 @@ print('Index of H: ', txt.rfind('E'))
 print('center character',txt.center(20, '*'))
 x = txt.swapcase()
 print("swapcase",x)
-
-
-# In[ ]:
 
 
 
